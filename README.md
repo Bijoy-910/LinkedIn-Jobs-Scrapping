@@ -23,9 +23,9 @@ This project aims to provide a comprehensive tool for analyzing the job's market
    - Utilize matplotlib and seaborn libraries to create visual representations of analyzed data for easier interpretation.
    
 ## Sample Outputs
-1. **Job Count by Location**:
-   ![Job Count by Location](images/job_count_by_location.png)
-2. **Salary Distribution by Job Title**:
-   ![Salary Distribution by Job Title](images/salary_distribution.png)
-3. **Locations with Highest Average Salary for Specific Job Type**:
-   ![Locations with Highest Average Salary](images/highest_salary_locations.png)
+1. **Job Count by Location**
+2. **Salary Distribution by Job Title**
+3. **Locations with Highest Average Salary for Specific Job Type**
+
+## Conclusion
+The Linkedin Scrapping provides a powerful tool for professionals, job seekers, and recruiters to navigate the dynamic landscape of data science employment. By leveraging cutting-edge web scraping techniques and data analysis, users can gain valuable insights into job trends, salary distributions, and geographic variations. Whether you're exploring career opportunities, hiring talent, or staying informed about industry demands, this tool equips you with the information needed to make informed decisions in the ever-evolving field of data science.
