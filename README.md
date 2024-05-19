@@ -1,31 +1,45 @@
 # LinkedIn Job Scrapping
 
 ## Overview
-This project aims to provide a comprehensive tool for analyzing the job's market by scraping job listings from various online platforms and extracting key insights such as job titles, companies, locations, salaries, and more. By leveraging web scraping techniques and data analysis, this tool empowers professionals, job seekers, and recruiters to navigate the dynamic landscape of data science employment.
+
+This project is a web scraper designed to extract job listings for Data Analyst positions from LinkedIn. It utilizes Python along with libraries such as BeautifulSoup and Selenium for web scraping. The scraped data is then stored in a CSV file for further analysis.
+
+## Objective
+
+The main objective of this project is to provide a tool for job seekers interested in Data Analyst positions to easily access and organize job listings from LinkedIn. It aims to streamline the job searching process by automating the collection of relevant job data.
 
 ## Features
-- **Web Scraping Mastery**: Utilizes Selenium and BeautifulSoup to efficiently gather job listings from platforms like LinkedIn, Indeed, Naukri, Glassdoor, and AngelList.
-- **Data Symphony**: Cleanses and organizes extracted data, including job titles, company names, locations, salaries, and post dates.
-- **Market Wizardry**: Analyzes trends in job demand, geographic distribution, salary variations, preferred qualifications, and emerging skill demands.
-- **Visual Magic**: Presents insights through captivating charts, graphs, and visual representations to aid user understanding.
+
+- Scrapes job listings for Data Analyst positions from LinkedIn.
+- Extracts key information such as job title, company, location, salary, etc.
+- Stores the scraped data in a CSV file for easy access and analysis.
+
+## Technologies Used
+
+- Python: Main programming language used for development.
+- BeautifulSoup: Python library for web scraping.
+- Selenium: Python library for automating web browser interaction.
+- ChromeDriver: WebDriver tool for controlling web browsers.
+- Pytz: Python library for working with timezones.
+
+## Outcomes
+
+- Successfully scraped job listings for Data Analyst positions from LinkedIn.
+- Extracted key information such as job title, company, location, salary, etc.
+- Stored the scraped data in a CSV file for further analysis and reference.
+
+## Future Use
+
+Potential future uses of this project include:
+- Adding additional features such as email notifications for new job listings.
+- Integrating with other job search platforms to expand the scope of job listings.
+- Implementing advanced filtering options for refining search results.
 
 ## Usage
-1. **Setup**:
-   - Ensure necessary packages are installed by following the installation instructions provided in the code.
-   - Customize web scraping parameters like job position and location in the `get_url()` function.
-2. **Scraping Data**:
-   - Execute the main script to scrape job data from selected online platforms.
-   - Data will be saved to a CSV file (`linkedin_job_records.csv`).
-3. **Data Analysis**:
-   - Import the CSV file into a DataFrame and perform data cleaning and analysis using provided scripts.
-   - Extract insights such as job count by location, average salary, most in-demand job titles, etc.
-4. **Visualization**:
-   - Utilize matplotlib and seaborn libraries to create visual representations of analyzed data for easier interpretation.
-   
-## Sample Outputs
-1. **Job Count by Location**
-2. **Salary Distribution by Job Title**
-3. **Locations with Highest Average Salary for Specific Job Type**
 
-## Conclusion
-The Linkedin Scrapping provides a powerful tool for professionals, job seekers, and recruiters to navigate the dynamic landscape of data science employment. By leveraging cutting-edge web scraping techniques and data analysis, users can gain valuable insights into job trends, salary distributions, and geographic variations. Whether you're exploring career opportunities, hiring talent, or staying informed about industry demands, this tool equips you with the information needed to make informed decisions in the ever-evolving field of data science.
+To use this scraper, follow these steps:
+1. Install the required Python libraries mentioned in the `requirements.txt` file.
+2. Ensure you have Chrome browser installed on your system.
+3. Update the `config.yaml` file with your desired position and location.
+4. Run the `main.py` script to start scraping job listings.
+5. The scraped data will be saved in a CSV file named `linkedin_job_records.csv`.
